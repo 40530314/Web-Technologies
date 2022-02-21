@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 function check(){ 
 	var score=0;
@@ -103,9 +103,6 @@ function check(){
     
 	}
 
-	
-
-=======
 
 function check(){ 
 	var score=0;
@@ -210,6 +207,3 @@ function check(){
     
 	}
 
-	
-
->>>>>>> 82acdced31b1235a27f32208852241b6a1835f4c
