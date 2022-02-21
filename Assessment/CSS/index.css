@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+
+}
+section {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+*{
+  box-sizing: border-box;
+  color: white;
+  background:black;
+  font-size: 20px;
+}
+/*Adapted from  https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+  .column {
+  float: left;
+  width: 15%;
+  align-items:left;
+  padding: 5px;
+  font-style: italic;
+  font-size: 14px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+article {
+  font-style: italic;
+}
+
+footer {
+   position:fixed;
+   text-align: right;
+   right:15px;
+   bottom:5px;
+   width:100%;
+   font-size: 16px;
+   font-family: "lucida Console";
+}
