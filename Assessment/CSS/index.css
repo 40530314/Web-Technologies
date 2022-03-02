@@ -40,6 +40,11 @@ section {
 article {
   font-style: italic;
 }
+.gifdelay {
+  width: 30%;
+  margin-right: 35px;
+  float: left;
+}
 aside {
   width: 30%;
   padding-left: 15px;
@@ -51,7 +56,7 @@ aside {
 
 h2 {
 
-  margin-left: 95px;
+  margin-left: 100px;
 }
 table {
   padding: 5px;

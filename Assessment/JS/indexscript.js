@@ -5,6 +5,15 @@ document.cookie = name;
 	setTimeout(english,2000);
 }
 */
+setTimeout(function() {
+	document.getElementById("waiting").style.display = "block"; 
+}, 10000);
+setTimeout(function(){
+      document.getElementById("gif").play();
+    }, 10000);
+setTimeout(function() {
+	document.getElementById("waiting").style.display = "none"; 
+}, 14350);
 function english() {
 	
 	var audio = new Audio("Sound/English.m4a")
