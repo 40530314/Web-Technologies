@@ -1,39 +1,71 @@
 header {
   text-align: center;
+  margin: 15px;
+}
 
+nav {
+  box-sizing: border-box;
+  background: cornflowerblue;
+  list-style-type: none;
+  justify-content: space-evenly;
+  text-align: center;
+  border-style: solid;
+  border-color: midnightblue;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  
+}
+
+nav a{
+  background: cornflowerblue;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 section {
+  margin:15px;
   padding-top: 5px;
   padding-left: 5px;
 }
 *{
   box-sizing: border-box;
-  color: white;
-  background:black;
+  color: black;
+  background: lightcyan;
   font-size: 20px;
-}
-/*Adapted from  https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
-
-  .column {
-  float: left;
-  width: 15%;
-  align-items:left;
-  padding: 5px;
-  font-style: italic;
-  font-size: 14px;
-
-}
-
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 article {
   font-style: italic;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 35px;
+  float: right;
+  padding: 15px;
+ 
+}
+
+h2 {
+
+  margin-left: 95px;
+}
+table {
+  padding: 5px;
+}
+th{
+  border-style: dotted;
+  padding: 15px;
+  background-color: darkgrey;
+}
+td {
+  border-style: dotted;
+  padding: 15px;
+  background-color: lightgrey;
+
 }
 
 footer {

@@ -12,12 +12,20 @@ h2 {
 	color: navy;
 }
 
+.gif {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
 h4 {
 	border-style: solid;
 	border-color: blue;
 	text-align: center;
 	background-color: lightblue;
 }
+
 
 
 footer {

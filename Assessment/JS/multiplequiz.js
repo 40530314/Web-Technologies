@@ -1,5 +1,3 @@
-
-
 function check(){ 
 	var score=0;
 	var audio1 = new Audio("Sound/failed.mp3")
@@ -204,6 +202,11 @@ function check(){
 	if (score<=10) {score="Use Google next time"}
 			audio1.play();
 	alert(score);
+	alert("A dynamic leaderboard couldn not be implemented : \nEmail 40530314@live.napier.ac.uk and they will add your score to their local leaderboard")
     
+	}
+
+	function back(){
+		window.location.href ="https://40530314.github.io/Web-Technologies/Assessment/index.html"
 	}
 

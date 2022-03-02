@@ -1,7 +1,12 @@
 var name = window.prompt("Enter your name: ");
 document.cookie = name;
 
+/*function time(){
+	setTimeout(english,2000);
+}
+*/
 function english() {
+	
 	var audio = new Audio("Sound/English.m4a")
 	audio.play();
 }
