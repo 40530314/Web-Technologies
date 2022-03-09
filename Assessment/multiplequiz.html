@@ -8,7 +8,7 @@
 
 	</head>
 	<body>
-
+		
 		<form name="Quiz" id="Quiz">
 			<div id="quiz">
 
@@ -96,7 +96,7 @@
 
 				Peter Parker, Bruce Wayne, Clark Kent, Natasha Romanov, Diana Prince, Steve Rodgers
 				</h4>
-				<p>Superman  <input type="text" id="box14" size="12"> Batman <input type="text" id="box15" size="12"> Wonder Woman <input type="text" id="box16" size="12"> Captain America <input type="text" id="box17" size="12"> Spiderman <input type="text" id="box18" size="12"> Black Widow <input type="text" id="box19" size="12"></p>
+				<p>Superman  <input type="text" id="box14" size="12"> Batman <input type="text" id="box15" size="12"> Wonder Woman <input type="text" id="box16" size="12"> Captain America <input type="text" id="box17" size="12"> Spiderman <input type="text" id="box18" size="12"> Black Widow <input type="text" id="box19" size="12"> </p>
 				<br>
 				<img src="Images/true or false.gif" class="gif">
 				<!-- Question one -->
@@ -135,11 +135,131 @@
 				<h4>23. True or False? <br> Arsenal are the only team in premier league history to go the whole league season unbeaten </h4>
 				<p> <input type="radio" name="question20" value="True">True </p>
 				<p><input type="radio" name="question20" value="False">False</p>
+				<img src="Images/oddone.gif" class="gif">
+				<!-- Odd one out questions -->
+				<h4>24. Which of these is the odd one out? </h4>
+				<table>
+					<tr><td>Bulbasaur</td><td>Charmander</td></tr>
+					<tr><td><img src="Images/pokemon1.png" style="display:block;" width="100%" height="50%"></td>
+						<td><img src="Images/pokemon2.png" style="display:block;" width="100%" height="50%"></td>
+					</tr>
+					<tr><td>Squirtle</td><td>Metapod</td></tr>
+					<tr><td><img src="Images/pokemon3.png" style="display:block;" width="100%" height="50%"></td>
+						<td><img src="Images/pokemon4.png" style="display:block;" width="100%" height="50%"></td>
+					<!-- images taken from https://trettleman.medium.com/starter-pok%C3%A9mon-ranked-d6431c971818 and https://edition.cnn.com/style/article/pokemon-design-25/index.html then  edited with Windows Snipping tool -->
+					</tr>
+
+				</table>
+				<label for="box25">Which one is the odd one out?</label>
+				<select  id="box25">
+					<option>Select options</option>
+					<option value="Bulbasaur">Bulbasaur</option>
+					<option value="Charmander">Charmander</option>
+					<option value="Squirtle">Squirtle</option>
+					<option value="Metapod">Metapod</option>
+				</select>
+				<h4>25. Which of these is the odd one out? </h4>
+				<table>
+					<tr><td>New England Pariots </td><td>Phoenix Suns</td></tr>
+					<tr><td><img src="Images/newengland.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from https://a.espncdn.com/i/teamlogos/nfl/500/ne.png -->
+						<td><img src="Images/Suns.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from -->
+					</tr>
+					<tr><td>Vancouver Canucks</td><td>LA Galaxy </td></tr>
+					<tr><td><img src="Images/Vancouver.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from https://frames.nucksnation.com/countdown/dist/assets/team_logos/canucks_logo.png -->
+						<td><img src="Images/la.png" style="display:block;" width="100%" height="50%"></td>
+					<!-- images taken from https://cdn.freebiesupply.com/images/thumbs/1x/la-galaxy-logo.png-->
+					</tr>
+
+				</table>
+				<label for="box26">Which one is the odd one out?</label>
+				<select  id="box26">
+					<option>Select options</option>
+					<option value="New England Pariots">New England Pariots</option>
+					<option value="Phoenix Suns">Phoenix Suns</option>
+					<option value="Vancouver Canucks">Vancouver Canucks</option>
+					<option value="LA Galaxy">LA Galaxy</option>
+				</select>
+				<h4>26. Which of these is the odd one out? </h4>
+				<table>
+					<tr><td>Star Destroyer </td><td>Millennium Falcon</td></tr>
+					<tr><td><img src="Images/Star_Destroyer.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from https://c4.wallpaperflare.com/wallpaper/538/396/935/destroyer-fi-sci-space-wallpaper-preview.jpg -->
+						<td><img src="Images/millennium-falcon.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from https://freepngimg.com/thumb/star_wars/5-2-star-wars-ship-vector-png.png -->
+					</tr>
+					<tr><td>Death Star </td><td>USS Enterprise </td></tr>
+					<tr><td><img src="Images/death_star.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- Image taken from https://www.thegreenhead.com/imgs/xl/star-wars-death-star-ii-fathead-wall-graphic-xl.jpg -->
+						<td><img src="Images/startrek.png" style="display:block;" width="100%" height="50%"></td>
+					<!-- images taken from http://clipart-library.com/clip-art/uss-enterprise-silhouette-11.htm -->
+					</tr>
+
+				</table><!--
+				<p>Well which one is the odd one out? <input type="text" id="box2000" size="12"></p> -->
+				<label for="box27">Which one is the odd one out?</label>
+				<select  id="box27">
+					<option>Select options</option>
+					<option value="Star Destroyer">Star Destroyer</option>
+					<option value="Millennium Falcon">Millennium Falcon</option>
+					<option value="Death Star">Death Star</option>
+					<option value="USS Enterprise">USS Enterprise</option>
+					
+				</select>
+				<h4>27. Which of these is the odd one out? </h4>
+				<table>
+					<tr><td>The Hulk</td><td>Wanda Maximoff</td></tr>
+					<tr><td><img src="Images/hulk.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- https://upload.wikimedia.org/wikipedia/en/a/aa/Hulk_%28circa_2019%29.png -->
+						<td><img src="Images/wanda.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- https://static.wikia.nocookie.net/x-men/images/d/db/Wanda_Maximoff_from_Uncanny_X-Men_Vol_1_1.jpg/revision/latest?cb=20191101010520 -->
+					</tr>
+					<tr><td>Batman</td><td>Spiderman</td></tr>
+					<tr><td><img src="Images/batman.png" style="display:block;" width="100%" height="50%"></td>
+						<!-- https://i.pinimg.com/736x/27/98/dc/2798dca37cd5c826772239ca381c28a9--batman-comic-books-batman-comics.jpg -->
+						<td><img src="Images/spiderman.png" style="display:block;" width="100%" height="50%"></td>
+					<!--Image taken from https://cdnb.artstation.com/p/assets/images/images/023/675/775/large/scrillrock-tdc-bestworkyettransparent.jpg?1579984711 -->
+					</tr>
+
+				</table>
+				<label for="box28">Which one is the odd one out?</label>
+				<select  id="box28">
+					<option>Select options</option>
+					<option value="The Hulk">The Hulk</option>
+					<option value="Wanda">Wanda Maximoff</option>
+					<option value="Batman">Batman</option>
+					<option value="Spiderman">Spiderman</option>
+				</select>
+				<!--
+				<img src="Images/extra.gif" class="gif">
+				<h4>28. Who are these characters?</h4>
+				<h3>This is just a bit extra that has no theme.</h3>
+				 Whos is this section 
+				<table></tr>
+				<td><img src="Images/sweep.png" style="display:block;" width="50%" height="50%"> <p>Who is this? <input type="text" id="box29"> </td>
+    			<td><img src="Images/sweep.png" style="display:block;" width="50%" height="50%"> <p>Who is this? <input type="text" id="box30"></td>
+    			<td><img src="Images/sweep.png" style="display:block;" width="50%" height="50%"> <p>Who is this? <input type="text" id="box31"></td>
+    			<td><img src="Images/sweep.png" style="display:block;" width="50%" height="50%"> <p>Who is this? <input type="text" id="box32"></td>
+    			<td><img src="Images/sweep.png" style="display:block;" width="50%" height="50%"> <p>Who is this? <input type="text" id="box33"></td>
+    			</tr></table>
+				<tr>
+				-->
+    			<!--
+				<table><td><tr></tr>
+
+					<tr><img src="Images/sweep.png" style="display:block;" width="20%" height="50%"></tr>
+					<tr><p>Who is this? <input type="text" id="box28"></td></tr>
+					</table>
+				-->
 			</div>
-				<input type="button" value="Finished?" id="button1" onclick="check()" style="height: 35px; width: 75px;">
+			<br>
+			<form><input type="button" value="Finished?" id="button1" onclick="check()" style="height: 50px; width: 100%;">
 				<br>
 				<br>
-				<input type="button" value="Back" class="button2" onclick="back()" style="height: 35px; width: 75px;">
+				<input type="button" value="Back" class="button2" onclick="back()" style="height: 35px; width: 75px;"> <input type="reset" style="height: 35px; width: 75px;"></form>
+				
 
 		</form>
 

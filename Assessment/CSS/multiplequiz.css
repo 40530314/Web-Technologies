@@ -26,7 +26,22 @@ h4 {
 	background-color: lightblue;
 }
 
+table{
+	margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+td {
+	border-style: solid;
+	background-color: white;
+	border-color: ghostwhite ;
+	text-align: center;
+	width: 50%;
 
+}
+.img {
+	object-fit: contain;
+}
 
 footer {
    position:fixed;
