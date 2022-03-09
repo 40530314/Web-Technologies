@@ -104,7 +104,7 @@ function check(){
 	if (answer23== "Batman") {score++}
 	
 
-	alert(name + " score was " + score +"/44");
+	alert(name + " score was " + score +"/43");
 	
 	if (score>=30) {score="Welldone, however you may want to go outside more often"}
 	if (score >= 11 && score <=29) {score="Perfectly balanced.. as all things should be"}
