@@ -85,7 +85,7 @@ function check(){
 	if (answer16 == "Diana Prince" || answer16 == "diana prince") {score++}
 	if (answer17 == "Steve Rodgers" || answer17 == "steve rodgers") {score++}
 	if (answer18 == "Peter Parker" || answer18 == "peter parker") {score++}
-	if (answer19 == "Natasha Romanov" || answer19 == "natasha romanov") {score++}
+	if (answer19 == "Natasha Romanoff" || answer19 == "natasha romanoff") {score++}
 	//True or false Answers
 	if (tf1=="True") {score++}
 	if (tf2=="True") {score++}
