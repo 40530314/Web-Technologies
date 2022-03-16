@@ -51,7 +51,16 @@ function check(){
 	var answer21 = box26.value;
 	var answer22 = box27.value;
 	var answer23 = box28.value;
-	//var answer24 = box29.value;
+	//Audio round
+	var answer24 = box29.value;
+	var answer25 = box30.value;
+	var answer26 = box31.value;
+	var answer27 = box32.value;
+	//var answer28 = box33.value;
+	var answer29 = box34.value;
+	var answer30 = box35.value;
+	var answer31 = box36.value;
+	var answer32 = box37.value;
 	
 	//multiple choice questions
 	if (q1=="Dr Jekyll and Mr Hyde and Frankensteins monster") {score++}
@@ -102,12 +111,21 @@ function check(){
 	if (answer21=="Vancouver Canucks") {score++}
 	if (answer22== "USS Enterprise") {score++}
 	if (answer23== "Batman") {score++}
-	
+	//Audio Round 
+	if (answer24=="Crash Bandicoot: Warped") {score++}
+	if (answer25=="Sonic the Hedgehog") {score++}
+	if (answer26=="John Williams") {score++}
+	if (answer27=="Ace Ventura: When Nature Calls") {score++}
+	if (answer29=="Jurassic Park") {score++}
+	if (answer30=="Match of the day") {score++}
+	if (answer31=="Nemesis") {score++}
+	if (answer32=="Stanley Ipkiss") {score++}
 
-	alert(name + " score was " + score +"/43");
 	
-	if (score>=30) {score="Welldone, however you may want to go outside more often"}
-	if (score >= 11 && score <=29) {score="Perfectly balanced.. as all things should be"}
+	alert(name + " score was " + score +"/51");
+	
+	if (score>=45) {score="Welldone, however you may want to go outside more often"}
+	if (score >= 11 && score <=44) {score="Perfectly balanced.. as all things should be"}
 	if (score<=10) {score="You clearly have a life, so I guess congrats?"}
 			audio1.play();
 	alert(score + "\n\nA dynamic leaderboard could not be implemented : \nEmail 40530314@live.napier.ac.uk and they will add your score to their local leaderboard");
