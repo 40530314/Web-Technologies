@@ -129,7 +129,6 @@ function check(){
 	if (score<=10) {score="You clearly have a life, so I guess congrats?"}
 			audio1.play();
 	alert(score + "\n\nA dynamic leaderboard could not be implemented : \nEmail 40530314@live.napier.ac.uk and they will add your score to their local leaderboard");
-	alert("A dynamic leaderboard could not be implemented : \nEmail 40530314@live.napier.ac.uk and they will add your score to their local leaderboard")
     
 	}
 
