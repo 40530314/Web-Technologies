@@ -1,7 +1,11 @@
-alert("Good luck in the Quiz " + name + "\n\n\n\n<---Just FYI---> \n This page uses cookies");
+alert("Good luck in the Quiz " + name + "\n\n All Images and Sound clips used are for educational purposes \n\n<---Just FYI---> \n This page uses cookies");
 
 function check(){ 
 	var score=0;
+	var comic=0;
+	var starwars=0;
+	var gaming=0;
+	var sports=0;
 	var audio1 = new Audio("Sound/failed.mp3")
 	var q1=document.Quiz.question1.value;
 	var q2=document.Quiz.question2.value;
@@ -63,73 +67,85 @@ function check(){
 	var answer32 = box37.value;
 	
 	//multiple choice questions
-	if (q1=="Dr Jekyll and Mr Hyde and Frankensteins monster") {score++}
-	if (q2=="Anakin Skywalker") {score++}
-	if (q3=="Playstation 2") {score++}
-	if (q4=="Phil Jackson") {score++}
-	if (q5=="The Joker") {score++}
-	if (q6=="Han Solo") {score++}
-	if (q7=="Sonic the Hedgehog") {score++}
-	if (q8=="Samuel Eto'o") {score++}
-	if (q9=="Kryptonite") {score++}
-	if (q10=="Darth Sidious") {score++}
+	if (q1=="Dr Jekyll and Mr Hyde and Frankensteins monster") {score++; comic++}
+	if (q2=="Anakin Skywalker") {score++; starwars++}
+	if (q3=="Playstation 2") {score++; gaming++}
+	if (q4=="Phil Jackson") {score++; sports++}
+	if (q5=="The Joker") {score++; comic++}
+	if (q6=="Han Solo") {score++; starwars++}
+	if (q7=="Sonic the Hedgehog") {score++; gaming++}
+	if (q8=="Samuel Eto'o") {score++; sports++}
+	if (q9=="Kryptonite") {score++; comic++}
+	if (q10=="Darth Sidious") {score++; starwars++}
 	//Fill in the blank set one
-	if (answer1 == "Darth Plagueis" || answer1 == "darth plagueis") {score++}
-	if (answer2 == "Jedi" || answer2 =="jedi") {score++}
-	if (answer3 == "Dark Lord" || answer3 == "dark lord") {score++}
-	if (answer4 == "Sith" || answer4 == "sith") {score++}
-	if (answer5 == "Powerful" || answer5 == "powerful") {score++}
-	if (answer6 == "Wise" || answer6 =="wise") {score++}
+	if (answer1 == "Darth Plagueis" || answer1 == "darth plagueis") {score++; starwars++}
+	if (answer2 == "Jedi" || answer2 =="jedi") {score++; starwars++}
+	if (answer3 == "Dark Lord" || answer3 == "dark lord") {score++; starwars++}
+	if (answer4 == "Sith" || answer4 == "sith") {score++; starwars++}
+	if (answer5 == "Powerful" || answer5 == "powerful") {score++; starwars++}
+	if (answer6 == "Wise" || answer6 =="wise") {score++; starwars++}
 	// Fill in the blank set two
-	if (answer7 == "War" || answer7 =="war") {score++}
-	if (answer8 == "Kratos" || answer8 == "kratos") {score++}
-	if (answer9 == "Ares" || answer9 == "ares") {score++}
-	if (answer10 == "War" || answer10 ==" war") {score++}
-	if (answer11 == "Zeus" || answer11 == "zeus") {score++}
-	if (answer12 == "Underworld" || answer12 =="underworld") {score++}
-	if (answer13 == "Sea" || answer13 == "sea") {score++}
+	if (answer7 == "War" || answer7 =="war") {score++; gaming++}
+	if (answer8 == "Kratos" || answer8 == "kratos") {score++; gaming++}
+	if (answer9 == "Ares" || answer9 == "ares") {score++; gaming++}
+	if (answer10 == "War" || answer10 ==" war") {score++; gaming++}
+	if (answer11 == "Zeus" || answer11 == "zeus") {score++; gaming++}
+	if (answer12 == "Underworld" || answer12 =="underworld") {score++; gaming++}
+	if (answer13 == "Sea" || answer13 == "sea") {score++; gaming++}
 	//Fill in the blank set three
-	if (answer14 == "Clark Kent" || answer14 =="clark kent") {score++}
-	if (answer15 == "Bruce Wayne" || answer15 == "bruce wayne") {score++}
-	if (answer16 == "Diana Prince" || answer16 == "diana prince") {score++}
-	if (answer17 == "Steve Rodgers" || answer17 == "steve rodgers") {score++}
-	if (answer18 == "Peter Parker" || answer18 == "peter parker") {score++}
-	if (answer19 == "Natasha Romanoff" || answer19 == "natasha romanoff") {score++}
+	if (answer14 == "Clark Kent" || answer14 =="clark kent") {score++ ; comic++}
+	if (answer15 == "Bruce Wayne" || answer15 == "bruce wayne") {score++; comic++}
+	if (answer16 == "Diana Prince" || answer16 == "diana prince") {score++; comic++}
+	if (answer17 == "Steve Rodgers" || answer17 == "steve rodgers") {score++; comic++}
+	if (answer18 == "Peter Parker" || answer18 == "peter parker") {score++; comic++}
+	if (answer19 == "Natasha Romanoff" || answer19 == "natasha romanoff") {score++; comic++}
 	//True or false Answers
-	if (tf1=="True") {score++}
-	if (tf2=="True") {score++}
-	if (tf3=="False") {score++}
-	if (tf4=="False") {score++}
-	if (tf5=="True") {score++}
-	if (tf6=="True") {score++}
-	if (tf7=="False") {score++}
-	if (tf8=="True") {score++}
-	if (tf9=="True") {score++}
-	if (tf10=="True") {score++}
+	if (tf1=="True") {score++ ; comic++}
+	if (tf2=="True") {score++; starwars++}
+	if (tf3=="False") {score++; gaming++}
+	if (tf4=="False") {score++; sports++}
+	if (tf5=="True") {score++; comic++}
+	if (tf6=="True") {score++; starwars++}
+	if (tf7=="False") {score++; gaming++}
+	if (tf8=="True") {score++; sports++}
+	if (tf9=="True") {score++; gaming++}
+	if (tf10=="True") {score++; sports++}
 	//Odd one out
-	if (answer20=="Metapod") {score++}
-	if (answer21=="Vancouver Canucks") {score++}
-	if (answer22== "USS Enterprise") {score++}
-	if (answer23== "Batman") {score++}
+	if (answer20=="Metapod") {score++; gaming++}
+	if (answer21=="Vancouver Canucks") {score++; sports++}
+	if (answer22== "USS Enterprise") {score++; starwars++}
+	if (answer23== "Batman") {score++; comic++}
 	//Audio Round 
-	if (answer24=="Crash Bandicoot: Warped") {score++}
-	if (answer25=="Sonic the Hedgehog") {score++}
-	if (answer26=="John Williams") {score++}
-	if (answer27=="Ace Ventura: When Nature Calls") {score++}
-	if (answer29=="Jurassic Park") {score++}
-	if (answer30=="Match of the day") {score++}
-	if (answer31=="Nemesis") {score++}
-	if (answer32=="Stanley Ipkiss") {score++}
+	if (answer24=="Crash Bandicoot: Warped") {score++; gaming++}
+	if (answer25=="Sonic the Hedgehog") {score++; gaming++}
+	if (answer26=="John Williams") {score++; starwars++}
+	if (answer27=="Ace Ventura: When Nature Calls") {score++; comic++}
+	if (answer29=="Jurassic Park") {score++; starwars++}
+	if (answer30=="Match of the day") {score++; sports++}
+	if (answer31=="Nemesis") {score++; gaming++}
+	if (answer32=="Stanley Ipkiss") {score++; comic++}
 
-	
-	alert(name + " score was " + score +"/51");
-	
+	var comicoverall = comic / 14 * 100;
+	var starwarsoverall = starwars / 14 * 100;
+	var gamingoverall = gaming / 16 * 100;
+	var sportsoverall = sports / 7 * 100;
+
+	comicoverall = comicoverall.toFixed();
+	starwarsoverall = starwarsoverall.toFixed();
+	gamingoverall = gamingoverall.toFixed();
+	sportsoverall = sportsoverall.toFixed();
+
+
+	alert(name + "Overall score was " + score +"/51 \n\n" +  
+		"On the Star Wars questions you scored " + starwarsoverall + "%\n" + 
+		"On the Comic Book questions you scored "+ comicoverall + "%\n" +
+		"On the Gaming questions you scored "+ gamingoverall + "%\n"+
+		"On the Sports questions you scored " + sportsoverall + "%");
 	if (score>=45) {score="Welldone, however you may want to go outside more often"}
 	if (score >= 11 && score <=44) {score="Perfectly balanced.. as all things should be"}
 	if (score<=10) {score="You clearly have a life, so I guess congrats?"}
 			audio1.play();
 	alert(score + "\n\nA dynamic leaderboard could not be implemented : \nEmail 40530314@live.napier.ac.uk and they will add your score to their local leaderboard");
-    
 	}
 
 	function back(){
