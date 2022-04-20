@@ -135,6 +135,8 @@ function check(){
 	gamingoverall = gamingoverall.toFixed();
 	sportsoverall = sportsoverall.toFixed();
 
+	
+
 
 	alert(name + "Overall score was " + score +"/51 \n\n" +  
 		"On the Star Wars questions you scored " + starwarsoverall + "%\n" + 
