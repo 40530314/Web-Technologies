@@ -138,7 +138,7 @@ function check(){
 	
 
 
-	alert(name + "Overall score was " + score +"/51 \n\n" +  
+	alert(name + "'s Overall score was " + score +"/51 \n\n" +  
 		"On the Star Wars questions you scored " + starwarsoverall + "%\n" + 
 		"On the Comic Book questions you scored "+ comicoverall + "%\n" +
 		"On the Gaming questions you scored "+ gamingoverall + "%\n"+
